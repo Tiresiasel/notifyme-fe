@@ -1,0 +1,131 @@
+body {
+  overflow: hidden;
+}
+.left-register {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+}
+.right-intro {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/background.jpg");
+  background-position: 0px -0.520833rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.register-title {
+  position: absolute;
+  left: 0.755208rem;
+  top: 0.329167rem;
+  width: 1.744792rem;
+  height: 0.302083rem;
+  color: #000000;
+  font-size: 0.177083rem;
+}
+.register-intro {
+  position: absolute;
+  left: 0.755208rem;
+  top: 0.725rem;
+  width: 2.916667rem;
+  height: 0.432292rem;
+  color: #808080;
+  font-size: 0.125rem;
+  font-weight: 400;
+}
+.email-title {
+  position: absolute;
+  left: 0.755208rem;
+  top: 1.157292rem;
+  width: 1.744792rem;
+  height: 0.171875rem;
+  color: #000000;
+  font-size: 0.114583rem;
+  font-weight: 400;
+}
+[type="email"] {
+  position: absolute;
+  left: 0.755208rem;
+  top: 1.68rem;
+  height: 0.348958rem;
+  width: 2.828125rem;
+  text-indent: 2em;
+  font-weight: 300;
+  border-radius: 0.171875rem;
+  border: 0.005208rem solid #a6a6a6;
+  font-size: 0.114583rem;
+  color: #808080;
+  outline: none;
+}
+.password-title {
+  position: absolute;
+  left: 0.755208rem;
+  top: 1.95rem;
+  width: 1.744792rem;
+  height: 0.302083rem;
+  color: #000000;
+  font-size: 0.114583rem;
+  font-weight: 400;
+}
+.password {
+  position: absolute;
+  left: 0.755208rem;
+  top: 2.46rem;
+  height: 0.348958rem;
+  width: 2.828125rem;
+  text-indent: 2em;
+  font-weight: 300;
+  border-radius: 0.171875rem;
+  border: 0.005208rem solid #a6a6a6;
+  font-size: 0.114583rem;
+  color: #808080;
+  outline: none;
+}
+.comfirm-password-title {
+  position: absolute;
+  left: 0.755208rem;
+  top: 2.74rem;
+  width: 1.744792rem;
+  height: 0.302083rem;
+  color: #000000;
+  font-size: 0.114583rem;
+  font-weight: 400;
+}
+.comfirm-password {
+  position: absolute;
+  left: 0.755208rem;
+  top: 3.26rem;
+  height: 0.348958rem;
+  width: 2.828125rem;
+  text-indent: 2em;
+  font-weight: 300;
+  border-radius: 0.171875rem;
+  border: 0.005208rem solid #a6a6a6;
+  font-size: 0.114583rem;
+  color: #808080;
+  outline: none;
+}
+input[type="submit"] {
+  position: absolute;
+  left: 0.760417rem;
+  top: 3.9rem;
+  width: 2.838542rem;
+  height: 0.348958rem;
+  cursor: pointer;
+  background-color: #4d35e6;
+  border-radius: 0.104167rem;
+  border: none;
+  color: white;
+  font-size: 0.135417rem;
+}
+.go-to-login {
+  position: absolute;
+  left: 1.47917rem;
+  top: 4.332292rem;
+  font-size: 0.104167rem;
+}
+.go-to-login a {
+  color: #1e0f7e;
+}
