@@ -1,0 +1,163 @@
+.main {
+  margin: 0.24rem auto;
+  width: 4.916667rem;
+}
+.title {
+  font-size: 0.125rem;
+  margin-bottom: 0.265625rem;
+  margin-top: 0.4rem;
+}
+.keywords {
+  height: 1.041667rem;
+}
+.sub-title {
+  float: left;
+  text-indent: 2em;
+  font-size: 0.1083333rem;
+}
+.nav {
+  width: 100%;
+  height: 0.34375rem;
+  border-bottom: 0.005208rem solid #a6a6a6;
+}
+.nav ul {
+  position: relative;
+  display: block;
+  width: 40%;
+  height: 100%;
+  margin: 0 0 0 3.723958rem;
+}
+.nav li {
+  display: block;
+  float: left;
+  padding: 0 0.06rem 0 0.06rem;
+  margin-top: 0.088542rem;
+  margin-right: 0.864583rem;
+  text-align: center;
+  font-size: 0.114583rem;
+}
+.nav li:first-child {
+  padding-bottom: 0.026042rem;
+  border-bottom: 0.015625rem solid #d6d8db;
+}
+.keywords li div {
+  font-size: 0.072917rem;
+  padding: 0 0.08rem;
+  cursor: default;
+  margin: 0 0.2rem 0.1rem 0.2rem;
+  position: relative;
+  text-align: center;
+  color: white;
+  line-height: 0.2rem;
+  background-color: #675BFE;
+  min-width: 0.32708rem;
+  height: 0.2rem;
+  margin-right: 0.052083rem;
+  border-radius: 0.1rem;
+}
+.keywords li:last-child div {
+  width: 0;
+  font-size: 0.12rem;
+}
+.keywords li {
+  position: relative;
+  float: left;
+}
+.keywords li button {
+  cursor: pointer;
+  left: 0.59rem;
+  top: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 0.1rem;
+  height: 0.1rem;
+  background-color: #afafaf;
+  border: none;
+  border-radius: 0.1rem;
+  color: #fff;
+  z-index: 2;
+}
+.keywords input {
+  border: none;
+  background-color: #675BFE;
+  width: 1px;
+}
+label {
+  display: block;
+  float: right;
+}
+label,
+input,
+select {
+  vertical-align: middle;
+}
+.mui-switch {
+  width: 0.239583rem;
+  height: 0.125rem;
+  position: relative;
+  border: 0.005208rem solid #dfdfdf;
+  background-color: #929292;
+  box-shadow: #F2F2F2 0 0 0 0 inset;
+  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-clip: content-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  user-select: none;
+  outline: none;
+}
+.mui-switch:before {
+  content: '';
+  width: 0.115rem;
+  height: 0.115rem;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  border-radius: 0.0625rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.mui-switch:checked {
+  border-color: #675BFE;
+  box-shadow: #675BFE 0 0 0 16px inset;
+  background-color: #675BFE;
+}
+.mui-switch:checked:before {
+  left: 0.114167rem;
+}
+.mui-switch.mui-switch-animbg {
+  transition: background-color ease 0.4s;
+}
+.mui-switch.mui-switch-animbg:before {
+  transition: left 0.3s;
+}
+.mui-switch.mui-switch-animbg:checked {
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  background-color: #675BFE;
+  transition: border-color 0.4s, background-color ease 0.4s;
+}
+.mui-switch.mui-switch-animbg:checked:before {
+  transition: left 0.3s;
+}
+.mui-switch.mui-switch-anim {
+  transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+}
+.mui-switch.mui-switch-anim:before {
+  transition: left 0.3s;
+}
+.mui-switch.mui-switch-anim:checked {
+  box-shadow: #675BFE 0 0 0 16px inset;
+  background-color: #675BFE;
+  transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+}
+.mui-switch.mui-switch-anim:checked:before {
+  transition: left 0.3s;
+}
+/*# sourceMappingURL=mui-switch.css.map */

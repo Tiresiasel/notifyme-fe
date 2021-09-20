@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./node_modules/amfe-flexible/index.js"></script>
+    <link href="node_modules/normalize.css/normalize.css" , rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/2.0.2/sha.js"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="nav">
+        <ul>
+            <li>
+                <a href="#">新闻快讯</a>
+            </li>
+            <li>
+                <a href="subscription.html">订阅设置</a>
+            </li>
+        </ul>
+    </header>
+    <section class="no-subscription">
+        你还没有订阅关键词，<a>请前往订阅</a>
+    </section>
+    <section class="main-body">
+        <section class="latest-news">
+            <header class="title">
+                最新新闻
+            </header>
+            <ul class="news-detail">
+
+                <li>
+                    <a href="#" class="news" id="news-url"  target="_blank">
+                        <div class="news-title">
+
+                        </div>
+                        <div class="news-body">
+
+                            <div class="news-description">
+
+                            </div>
+                            <div class="news-publish-date"></div>
+
+                            <div class="news-source"></div>
+                            <div class="news-keywords">
+                                <ul class="keywords">
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="news" id="news-url"  target="_blank">
+                        <div class="news-title">
+
+                        </div>
+                        <div class="news-body">
+
+                            <div class="news-description">
+
+                            </div>
+                            <div class="news-publish-date"></div>
+
+                            <div class="news-source"></div>
+                            <div class="news-keywords">
+                                <ul class="keywords">
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="#" class="news" id="news-url"  target="_blank">
+                        <div class="news-title">
+
+                        </div>
+                        <div class="news-body">
+
+                            <div class="news-description">
+
+                            </div>
+                            <div class="news-publish-date"></div>
+
+                            <div class="news-source"></div>
+                            <div class="news-keywords">
+                                <ul class="keywords">
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="#" class="news" id="news-url"  target="_blank">
+                        <div class="news-title">
+
+                        </div>
+                        <div class="news-body">
+
+                            <div class="news-description">
+
+                            </div>
+                            <div class="news-publish-date"></div>
+
+                            <div class="news-source"></div>
+                            <div class="news-keywords">
+                                <ul class="keywords">
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="#" class="news" id="news-url"  target="_blank">
+                        <div class="news-title">
+
+                        </div>
+                        <div class="news-body">
+
+                            <div class="news-description">
+
+                            </div>
+                            <div class="news-publish-date"></div>
+
+                            <div class="news-source"></div>
+                            <div class="news-keywords">
+                                <ul class="keywords">
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+
+                        </div>
+                    </a>
+                </li><li>
+                    <a href="#" class="news" id="news-url"  target="_blank">
+                        <div class="news-title">
+
+                        </div>
+                        <div class="news-body">
+
+                            <div class="news-description">
+
+                            </div>
+                            <div class="news-publish-date"></div>
+
+                            <div class="news-source"></div>
+                            <div class="news-keywords">
+                                <ul class="keywords">
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <section class="page">
+                <button type="button" class="previous">上一页</button>
+                <span class="page-number">第1页</span>
+                <button type="button" class="next">下一页</button>
+            </section>
+            <section class="message">
+                <header class="title">
+                    快讯
+                </header>
+                <div class="latest-message">
+                    <ul id="message-detail" class="message-detail">
+                        <li>
+                            <a target="_blank" href=# class="message-url">
+                                <div class="message-publish-time">
+                                   
+                                </div>
+                                <div class="message-info">
+                                    
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href=# class="message-url">
+                                <div class="message-publish-time">
+                                   
+                                </div>
+                                <div class="message-info">
+                                    
+                                </div>
+                            </a>
+                        </li> <li>
+                            <a href= target="_blank"# class="message-url">
+                                <div class="message-publish-time">
+                                   
+                                </div>
+                                <div class="message-info">
+                                    
+                                </div>
+                            </a>
+                        </li> <li>
+                            <a href= target="_blank"# class="message-url">
+                                <div class="message-publish-time">
+                                   
+                                </div>
+                                <div class="message-info">
+                                    
+                                </div>
+                            </a>
+                        </li> <li>
+                            <a href= target="_blank"# class="message-url">
+                                <div class="message-publish-time">
+                                   
+                                </div>
+                                <div class="message-info">
+                                    
+                                </div>
+                            </a>
+                        </li> <li>
+                            <a href= target="_blank"# class="message-url">
+                                <div class="message-publish-time">
+                                   
+                                </div>
+                                <div class="message-info">
+                                    
+                                </div>
+                            </a>
+                        </li> <li>
+                            <a href= target="_blank"# class="message-url">
+                                <div class="message-publish-time">
+                                   
+                                </div>
+                                <div class="message-info">
+                                    
+                                </div>
+                            </a>
+                        </li> <li>
+                            <a href= target="_blank"# class="message-url">
+                                <div class="message-publish-time">
+                                   
+                                </div>
+                                <div class="message-info">
+                                    
+                                </div>
+                            </a>
+                        </li>
+                    <a href="javascript:;" class="change-message">
+                        <i id ="change-icon" class="iconfont">&#xe69d;</i> 换一批
+                    </a>
+                </div>
+            </section>
+        </section>
+        <!-- 如果用户没有登陆,则跳回登录页面 -->
+        <!-- <div class="alert-not-login">
+        你还没有登陆,前往<a href ="login.html">登录</a>
+    </div> -->
+        <script src="js/home.js"></script>
+
+</body>
+
+</html>

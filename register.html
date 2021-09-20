@@ -9,6 +9,8 @@
     <link href="css/register.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
     <script src="./node_modules/amfe-flexible/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/2.0.2/sha.js"></script>
     <title>Register</title>
 </head>
 
@@ -25,14 +27,18 @@
                 邮箱*
             </h6>
             <input type="email" label="email" value="email@website.com">
+            <p class="invalid-email">*邮箱格式不正确</p>
+            <p class="email-already-exist">*该邮箱已经存在</p>
             <h6 class="password-title">
                 密码*
             </h6>
-            <input class="password" label="password" type="text" value="至少8位字符，必须包含1位大写字母">
+            <p class="wrong-format-password">*密码格式不正确</p>
+            <input class="password" label="password" type="text" value="至少八个字符，至少一个字母和一个数字">
             <h6 class="comfirm-password-title">
                 确认密码*
             </h6>
-            <input class="comfirm-password" label="password" type="text" value="至少8位字符，必须包含1位大写字母">
+            <p class="different-password">*两次输入的密码不一致</p>
+            <input class="comfirm-password" label="password" type="text" value="至少八个字符，至少一个字母和一个数字">
             <input type="submit" value="注册">
             <p class="go-to-login">已经拥有账号？<a href="login.html">前往登录</a></p>
         </form>
@@ -41,8 +47,8 @@
 
 
     <section class="right-intro"></section>
-
-    <script src="js/login.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/register.js"></script>
 
 </body>
 

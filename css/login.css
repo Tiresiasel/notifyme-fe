@@ -48,7 +48,7 @@ body {
 [type="email"] {
   position: absolute;
   left: 0.755208rem;
-  top: 1.68rem;
+  top: 1.45rem;
   height: 0.348958rem;
   width: 2.828125rem;
   text-indent: 2em;
@@ -62,7 +62,7 @@ body {
 .password-title {
   position: absolute;
   left: 0.755208rem;
-  top: 1.95rem;
+  top: 2rem;
   width: 1.744792rem;
   height: 0.302083rem;
   color: #000000;
@@ -72,7 +72,7 @@ body {
 .password {
   position: absolute;
   left: 0.755208rem;
-  top: 2.46rem;
+  top: 2.3rem;
   height: 0.348958rem;
   width: 2.828125rem;
   text-indent: 2em;
@@ -82,6 +82,9 @@ body {
   font-size: 0.114583rem;
   color: #808080;
   outline: none;
+}
+.password::-ms-reveal {
+  display: none;
 }
 .checkbox-wrapper {
   position: absolute;
@@ -100,7 +103,6 @@ input[type="checkbox"] {
   height: 0.125rem;
   line-height: 0.125rem;
   font-size: 14px;
-  border-radius: 0.052083rem;
 }
 input[type="checkbox"]::after {
   position: absolute;
@@ -110,10 +112,11 @@ input[type="checkbox"]::after {
   height: 0.125rem;
   display: inline-block;
   visibility: visible;
+  background-color: #5138ed;
+  border-radius: 0.015625rem;
   padding-left: 0px;
   text-align: center;
   content: "";
-  border-radius: 0.052083rem;
 }
 input[type="checkbox"]:checked::after {
   content: "✓";
@@ -121,6 +124,7 @@ input[type="checkbox"]:checked::after {
   font-size: 0.0625rem;
   font-weight: bold;
   background-color: #5138ed;
+  border-radius: 0.015625rem;
 }
 .checkbox-wrapper a:first-of-type {
   position: absolute;
@@ -139,8 +143,8 @@ input[type="submit"] {
   top: 3.417708rem;
   width: 2.838542rem;
   height: 0.348958rem;
-  cursor: pointer;
-  background-color: #4d35e6;
+  cursor: default;
+  background-color: #CECAED;
   border-radius: 0.104167rem;
   border: none;
   color: white;
@@ -156,5 +160,35 @@ input[type="submit"] {
   text-align: center;
 }
 .create-account a {
-  color: #1E0F7E;
+  color: #1e0f7e;
+}
+.invalid-email {
+  display: none;
+  position: absolute;
+  left: 3.713542rem;
+  top: 1.692708rem;
+  width: 1.84375rem;
+  height: 0.182292rem;
+  color: #ff0000;
+  font-size: 0.104167rem;
+}
+.email-not-exist {
+  display: none;
+  position: absolute;
+  left: 3.713542rem;
+  top: 1.70708rem;
+  width: 1.84375rem;
+  height: 0.182292rem;
+  color: #ff0000;
+  font-size: 0.084167rem;
+}
+.wrong-password {
+  display: none;
+  position: absolute;
+  left: 3.713542rem;
+  top: 2.5108rem;
+  width: 1.84375rem;
+  height: 0.182292rem;
+  color: #ff0000;
+  font-size: 0.084167rem;
 }

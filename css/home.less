@@ -1,0 +1,216 @@
+.nav {
+  width: 100%;
+  height: 0.34375rem;
+  // background-color:#000;
+  border-bottom: 0.005208rem solid rgba(166, 166, 166, 1);
+}
+.nav ul {
+  position: relative;
+  display: block;
+  width: 40%;
+  height: 100%;
+  margin: 0 0 0 3.723958rem;
+}
+.nav li {
+  display: block;
+  float: left;
+  padding: 0 0.06rem 0 0.06rem;
+  margin-top: 0.088542rem;
+  margin-right: 0.864583rem;
+  text-align: center;
+  font-size: 0.114583rem;
+}
+
+.nav li:first-child {
+  padding-bottom: 0.026042rem;
+  border-bottom: 0.015625rem solid #d6d8db;
+}
+.no-subscription {
+  display: none;
+}
+
+.main-body {
+  position: relative;
+  width: 7rem;
+  height: 5.208333rem;
+  margin: 0 auto;
+}
+.main-body .latest-news {
+  position: relative;
+  float: left;
+  width: 4.526042rem;
+  left: 0;
+}
+// FIXME 使用浮动定位
+.main-body .message {
+  position: absolute;
+  left: 5.3rem;
+  top: 0.125rem;
+  // float: left;
+  // margin: 0.125rem 0 0 0.3rem;
+  width: 2.098958rem;
+  height: 5.259375rem;
+  border: 0.005208rem solid rgb(89, 89, 89);
+}
+
+/*
+latest news start
+*/
+.main-body .latest-news .title {
+  margin-top: 0.098958rem;
+  margin-bottom: 0.15rem;
+  width: 2.098958rem;
+  left: 0;
+  text-align: left;
+  font-size: 0.125rem;
+  color: rgba(89, 89, 89);
+}
+
+.main-body .message .title {
+  width: 100%;
+  border-bottom: 0.005208rem solid rgba(112, 112, 112, 1);
+  padding-top: 0.127917rem;
+  text-align: left;
+  text-indent: 0.15625rem;
+  color: rgba(112, 112, 112, 1);
+  font-size: 0.114583rem;
+  height: 0.2333333rem;
+}
+
+.main-body .latest-news .news-detail .news-title {
+  margin-left: 0.127917rem;
+  color: rgb(81, 81, 81);
+  font-size: 0.1rem;
+  height: 0.2333333rem;
+}
+
+.main-body .latest-news .news-detail .news-body {
+  width: 4.203125rem;
+  border-left: 0.036458rem solid rgba(196, 196, 196, 1);
+  margin: 0 0 0.57083rem 0.127917rem;
+  padding-left: 0.078125rem;
+  line-height: 0.135417rem;
+  color: #898989;
+  font-size: 0.083333rem;
+}
+
+.main-body .latest-news .news-detail .news-body .news-publish-date {
+  margin-top: 0.104167rem;
+  float: left;
+}
+
+.main-body .latest-news .news-detail .news-body .news-source {
+  margin-top: 0.104167rem;
+  float: right;
+}
+.main-body .latest-news .news-detail .news-body .news-keywords {
+  position: absolute;
+  margin: 0 0 0.177083rem 0.127917rem;
+  border-left: 0.036458rem solid rgba(196, 196, 196, 1);
+  padding-left: 0.064rem;
+  margin-right: 0;
+  left: 0;
+}
+.main-body .latest-news .news-detail .news-body .news-keywords li {
+  float: left;
+  height: 0.1rem;
+  border-radius: 0.1325rem;
+  line-height: 0.1rem;
+  margin-top: 0.30167rem;
+  margin-right: 0.041667rem;
+  padding: 0.015rem 0.04rem 0.015rem 0.04rem;
+  font-size: 0.063333rem;
+  text-align: center;
+  background-image: linear-gradient(to right, #744cfe, #12c1ff);
+  color: #fff;
+}
+
+.main-body .latest-news .news-detail .news-body .clear {
+  clear: both;
+}
+
+/*
+latest news end
+*/
+
+/*
+latest message start
+*/
+.message .latest-message {
+  margin-left: 0.15625rem;
+}
+
+.message .latest-message li {
+  height: 0.472917rem;
+}
+
+.message .latest-message .message-publish-time {
+  margin-top: 0.046875rem;
+  color: rgba(112, 112, 112, 1);
+  font-size: 0.08375rem;
+}
+
+.message .latest-message .message-info {
+  margin: 0.046875rem 0.1rem 0 0;
+  color: #000;
+  font-size: 0.084583rem;
+  word-break: break-all;
+  /*属性规定自动换行的处理方法。normal(使用浏览器默认的换行规则。),break-all(允许在单词内换行。),keep-all(只能在半角空格或连字符处换行。)*/
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+}
+
+.message .latest-message .change-message {
+  position: absolute;
+  margin: 0.16rem 0 0 0.6rem;
+  color: #808080;
+  font-size: 0.104167rem!important;
+}
+
+#change-icon{
+  font-size:.104167rem!important;
+}
+/*
+latest message end
+*/
+
+.page {
+  display: inline-block;
+  width: 100%;
+  height: 0.15rem;
+  line-height: 0.15rem;
+  font-size: 0.1rem;
+  margin: 0.1rem 0 0.6rem 0;
+  text-align: center;
+}
+.page button {
+  display: inline-block;
+  font-size: 0.082917rem;
+  cursor: pointer;
+  border-radius: 0.02rem;
+  border: 1px solid transparent;
+  padding: 0.020625rem 0.03125rem 0.020625rem 0.03125rem;
+  color: #ffffff;
+  background-color: #744cfe;
+}
+
+.page .previous {
+  cursor: default;
+  margin-left: .12rem;
+  background-color: #CECAED;
+}
+
+
+.page .previous {
+  float: left;
+}
+
+.page .next {
+  float: right;
+}
